@@ -1,0 +1,21 @@
+#Este archivo contendra los archivos, carpetas y extencion de archivos
+# que no deseamos que se ingresen
+#  ->  " *.txt "        todos los archivos .txt
+#  ->  /carpeta/file.   / para acceder a una carpeta
+
+#Los archivos que ingresemos en .gitignore al momento
+# de subirlos al repositorio git los ignorar
+
+# Aqui podes incluir: 
+#   Contrasenias ".env"
+#   Bases de Datos
+#   Archivos innecesarios
+#   Datos de uso local
+
+
+#Carpeta del entorno de python, usaremos requirements.txt
+entorno-env
+
+#No subimos la DB
+db.sqlite3
+

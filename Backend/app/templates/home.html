@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		
+		{% load static %}
+		
+		<title>Ver Videos</title>
+		
+		<link rel="shortcut icon" type="image/png" href="{% static 'icons8-home-100.png' %}"/>
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+
+	</head>
+	<body class="is-preload">
+				
+			</iframe>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="#">TUS VIDEOS FAVORITOS</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#">Ver Videos</a></li>
+								<li><a href="#">Subir Videos</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>	
+								<li class="search">
+									<!-- <a class="fa-search" href="#"></a> -->
+									<input type="text" name="query" placeholder="Search"/>
+								</li>
+								
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<div id="div_article_main" hidden> 
+							<article class="post" >
+								<header>
+									<div class="title">
+										<h2><a href="">Titulo Video #111</a></h2>
+										<h3><a href="">Cantidad reacciones</a></h3>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">Fecha Publicasion</time>
+										<a href="#" class="author"><span class="name">diego_123</span><img src="{% static 'img/avatar.jpg' %}" alt="" /></a>
+									</div>
+								</header>
+								<a href="#" class="image featured"><img id="image_video_user" src="{% static 'img/pic01.jpg' %}" /></a>
+							</article>
+						</div>
+						
+						<ul class="actions pagination">
+							<li><a href="#" class="disabled button large previous">Previous Page</a></li>
+							<li><a href="#" class="button large next">Next Page</a></li>
+						</ul>
+
+					</div>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#" class="logo"><img src="{% static 'img/logo.jpg' %}" alt="" /></a>
+								<header>
+									<h2>Tus Videos Favoritos</h2>
+									<p>Guardar y Reproducir tus Videos</p>
+								</header>
+							</section>
+
+						<!-- Mini Posts -->
+							<section>
+								<div class="mini-posts" id="div_article_section" hidden>
+									<!-- Mini Post -->
+									<article class="mini-post">
+										<header>
+											<h3><a href="single.html">Vitae sed condimentum</a></h3>
+											<time class="published" datetime="2015-10-20">October 20, 2015</time>
+											<a href="#" class="author"><img src="{% static 'img/avatar.jpg' %}" alt="" /></a>
+										</header>
+										<a href="single.html" class="image"><img src="{% static 'img/pic04.jpg' %}" alt="" /></a>
+									</article>
+								</div>
+
+							</section>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+
+			<script src="{% static 'js/home_js.js' %}"></script>
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+	</body>
+</html>
