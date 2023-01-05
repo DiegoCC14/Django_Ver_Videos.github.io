@@ -1,24 +1,22 @@
 <html>
-		
-	{% load static %}
 	
 	<head>
 
 		<title>Inicio de Secion</title>
 
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/bootstrap.min.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/bootstrap.min.css">
 
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/font-awesome.min.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/font-awesome.min.css">
 
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/animate.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/animate.css">
 
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/hamburgers.min.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/hamburgers.min.css">
 
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/select2.min.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/select2.min.css">
 
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/util.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/util.css">
 		
-		<link rel="stylesheet" type="text/css" href="{% static 'css_login/main.css' %}">
+		<link rel="stylesheet" type="text/css" href="static/css_login/main.css">
 
 	</head>
 
@@ -28,11 +26,10 @@
 				<div class="wrap-login100">
 					
 					<div class="login100-pic js-tilt">
-						<img src="{% static 'img_login/upload_video.png' %}">
+						<img src="static/img_login/upload_video.png">
 					</div>
 					
-					<form class="login100-form validate-form" action="{% url 'login' %}" method="POST">
-						{% csrf_token %}
+					<form class="login100-form validate-form" action="" method="POST">
 
 						<span class="login100-form-title">
 							Inicio de Secion
@@ -62,6 +59,13 @@
 				</div>
 			</div>
 		</div>
+	
+	<script>
+		var url_backend = "" //Contiene la url donde se encuentra el backen, usado para direccionar
+		var url_actual = window.location;
+		console.log( "URL ACTUAL UWU" )
+		console.log( url_actual )
+	</script>
 
 	</body>
 </html>
